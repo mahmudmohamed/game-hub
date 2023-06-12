@@ -8,7 +8,7 @@ function ErrorPage() {
   return (
     <>
       <NavBar />
-      <Box>
+      <Box padding={5}>
         <Heading>Oops</Heading>
         <Text>
           {" "}
