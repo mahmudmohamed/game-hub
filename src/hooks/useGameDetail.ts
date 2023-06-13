@@ -9,7 +9,7 @@ const apiClinet = new APIClient<Game>(`/games`)
 const useGame = (slug: string) => {
 
   return useQuery({
-    queryKey: ['game-detail'],
+    queryKey: ['game', slug],
     queryFn: () => apiClinet.get(slug)
   })
 }
