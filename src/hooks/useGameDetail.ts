@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query"
 import Game from "../entites/Game"
-
 import APIClient from "../services/api-client"
 
 
